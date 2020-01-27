@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:onClick="onClick"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/tickets"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/ripple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_ticket" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/my_tickets"
+            android:textColor="@color/colorBlack"
+            android:typeface="serif" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:onClick="onClick"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/back"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/ripple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_tickets_back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/money_back"
+            android:textColor="@color/colorBlack"
+            android:typeface="serif"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:onClick="onClick"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/theaters"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/ripple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_map" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/theaters_map"
+            android:textColor="@color/colorBlack"
+            android:typeface="serif"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:onClick="onClick"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/language"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/ripple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_language" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/pick_language"
+            android:textColor="@color/colorBlack"
+            android:typeface="serif"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:onClick="onClick"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/reg"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/ripple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_reg_in" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/registration"
+            android:textColor="@color/colorBlack"
+            android:typeface="serif"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:onClick="onClick"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/log_out"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/ripple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_exit" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/log_out"
+            android:textColor="@color/colorBlack"
+            android:typeface="serif"/>
+    </LinearLayout>
+
+
+</LinearLayout>

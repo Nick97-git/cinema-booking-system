@@ -1,0 +1,76 @@
+<resources>
+    <string name="need_to_log_in">Если вы не регистрируетесь вы не имеете возможность сохранять купленые билеты в приложении. Билеты отправляются на вашу електронную почту которую вы укажете при покупке билетов. Настоятельно рекомендует вам зарегистрироваться в нашем приложении для вашего же удобства. Вы уверены что хотите продолжить работу в приложении без регистрации?</string>
+    <string name="error_news">Новости связаные с этим фильмом отсутствуют </string>
+    <string name="premiere_in_ua">Премьера в Украине</string>
+    <string name="tickets_back">Вы уверены что хотите вернуть билеты?</string>
+    <string name="log_in_without_reg">Ввойти без регистрации</string>
+    <string name="error_trailers">Трейлеры к этому фильму отсутствуют </string>
+    <string name="error_actors">Актерский состав этого фильма неизвестен </string>
+    <string name="app_name">CBS</string>
+    <string name="transition_image" translatable="false">transition:IMAGE</string>
+    <string name="menu" translatable="false">Меню</string>
+    <string name="error_sessions">Сеансов сегодня нету. Выберите другую дату или фильм</string>
+    <string name="Logan" translatable="false">Logan</string>
+    <string name="my_tickets">Мои билеты</string>
+    <string name="money_back">Вернуть билеты</string>
+    <string name="log_out">Выйт  из аккаунта</string>
+    <string name="registration">Регистрация</string>
+    <string name="theaters_map">О кинотеатрах</string>
+    <string name="soon_in_theater">Скоро в кино</string>
+    <string name="now_in_theater">Сейчас в прокате</string>
+    <string name="pick_language">Поменять язык</string>
+    <string name="featuresList">Функции</string>
+    <string name="listOfFilms">В кино</string>
+    <string name="listOfTheaters">Кинотеатр</string>
+    <string name="cancel">Отмена</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="password">Пароль</string>
+    <string name="next">Далее</string>
+    <string name="row" translatable="false">Ряд: </string>
+    <string name="seat"> Место: </string>
+    <string name="price"> Цена: </string>
+    <string name="about_film">О фильме</string>
+    <string name="actors">Актерский состав</string>
+    <string name="trailers">Трейлеры</string>
+    <string name="news">Новости</string>
+    <string name="map">Карта</string>
+    <string name="no">Нет</string>
+    <string name="yes">Да</string>
+    <string name="description">Синопсис</string>
+    <string name="password_is_not">Не введен пароль</string>
+    <string name="email_is_not">Не введен email</string>
+    <string name="confirm_send_to">Потверждение отправлено на </string>
+    <string name="confirm_send_failed">Ошибка отправки подтвержденяи</string>
+    <string name="authentication_failed">Аутентификация провалилась</string>
+    <string name="warning">Предупреждение</string>
+    <string name="loading">Загрузка</string>
+    <string name="money">"Деньги вернутся к вам на счет на протяжени 3 дней"</string>
+    <string name="official_site">Официальный сайт</string>
+    <string name="pickDate">Выбирите дату:</string>
+    <string name="unknown">Неизвестно</string>
+    <string name="pickTheater">Выбирите кинотеатр:</string>
+    <string name="pickSession">Выбирите сеанс:</string>
+    <string name="create_account">Создать аккаунт</string>
+    <string name="sign_in">Ввойти</string>
+    <string name="load">Загрузка</string>
+    <string name="sign_out">Выйти</string>
+    <string name="verify">Подтверждение</string>
+    <string name="fail">Ошибка</string>
+    <string name="buy_tickets">Купить билеты</string>
+    <string name="info">Подробнее</string>
+    <string name="exit">Выйти</string>
+    <string name="phone">Телефон</string>
+    <string name="date">Дата выхода:</string>
+    <string name="film_time">Продолжительность:</string>
+    <string name="rating">Рейтинг:</string>
+    <string name="data">12.08.2018</string>
+    <string name="rate">R</string>
+    <string name="sum">Общая сума</string>
+    <string name="time_film">119 минут</string>
+    <string name="seat_not_available">Место занято</string>
+    <string name="logan_info" translatable="false">В недалеком будущем уставший от жизни Логан заботится о больном профессоре Икс, который прячется неподалеку от мексиканской границы. Но Логан больше не сможет скрывать свое прошлое, когда встретится с юным мутантом, которого преследуют темные силы.</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "27930346033",
+    "firebase_url": "https://diplom-654f1.firebaseio.com",
+    "project_id": "diplom-654f1",
+    "storage_bucket": "diplom-654f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27930346033:android:dc44c0a0032988fb",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.cbs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27930346033-uqc1hutcl410hbcu8rnghpvs724un618.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.cbs",
+            "certificate_hash": "8ce5aaa952ea57e198e297340518eb359c22e606"
+          }
+        },
+        {
+          "client_id": "27930346033-akp9hjqoe7iu2k1r4qlmn79oerd20tm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF7EA_vqzEyJFjXu8Kt-EmKmKzsi67Ezk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27930346033-akp9hjqoe7iu2k1r4qlmn79oerd20tm5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

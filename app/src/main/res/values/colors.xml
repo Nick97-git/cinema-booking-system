@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackground">#c2ede4</color>
+    <color name="colorViewPagerBack">#E3F2FD</color>
+    <color name="ticketColour">#ddccba</color>
+    <color name="colorDarkPrimary">#1565C0</color>
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorPrimaryLight">#1E88E5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorRed">#f44336</color>
+    <color name="colorYellow">#FFEB3B</color>
+    <color name="colorBrown">#795548</color>
+    <color name="mainColor">#009688</color>
+    <color name="colorGreen">#64DD17</color>
+    <color name="tabsColor">#008B00</color>
+    <color name="tabsColorBack">#FFB300</color>
+    <color name="colorBlack">#000000</color>
+    <color name="redRipple">#FF0505</color>
+
+    <array name="pricesColors">
+        <item>@color/colorRed</item>
+        <item>@color/colorYellow</item>
+        <item>@color/colorBrown</item>
+    </array>
+</resources>

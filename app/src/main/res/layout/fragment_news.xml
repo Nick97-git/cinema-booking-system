@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.633">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="241dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/newone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.415" />
+
+        <TextView
+            android:id="@+id/news_title"
+            android:layout_width="294dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/image_shape"
+            android:gravity="center"
+            android:text="Джереми Реннер ждет сольный фильм о Черной Вдове"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:typeface="serif"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.558" />
+
+        <TextView
+            android:id="@+id/date_title_news"
+            android:layout_width="279dp"
+            android:layout_height="13dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#BDBDBD"
+            android:gravity="center"
+            android:text="Дата: 07.02.2018"
+            android:textColor="@color/colorBlack"
+            android:textSize="8sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            app:layout_constraintBottom_toTopOf="@+id/news_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.51"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.879" />
+
+        <TextView
+            android:id="@+id/film_title_news"
+            android:layout_width="277dp"
+            android:layout_height="11dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#BDBDBD"
+            android:gravity="center"
+            android:text="Месники Війна Нескінченності"
+            android:textColor="@color/colorBlack"
+            android:textSize="8sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            app:layout_constraintBottom_toTopOf="@+id/news_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </android.support.constraint.ConstraintLayout>
+    <FrameLayout
+        android:id="@+id/news_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:visibility="gone">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/colorBlack"
+                    android:typeface="serif"
+                    android:textStyle="bold"
+                    android:id="@+id/news_title_full"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="Джереми Реннер ждет сольный фильм о Черной Вдове"
+                    android:textSize="20sp" />
+                <TextView
+                    android:textStyle="italic"
+                    android:textColor="@color/colorBlack"
+                    android:id="@+id/news_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="«Мстители: Война бесконечности» продолжают ставить рекорды
+Третий фильм из франшизы «Мстители» демонстрирует впечатляющие результаты как в США, так и на международных кинопрокатных рынках. В ходе второго прокатного уик-энда фильм доминировал на международных рынках, собрав 162 миллиона 600 тысяч долларов на 54 территориях. В североамериканских кинотеатрах за этот же период третьи «Мстители собрали» 112 с половиной миллионов, что в сумме дает 275 миллионов 100 тысяч долларов. В целом же за первые 11 дней фильм в США собрал почти 451 миллион долларов, а на международных рынках – 713,3 миллиона долларов. В субботу, 5 мая, мировые валовые сборы ленты перевалили за 1 миллиард долларов, что является рекордом по скорости собирания такой суммы сборов. Пока «Мстители: война бесконечности» является пятым фильмом про супергероев по размерам кассовых сборов.
+В России лента за уик-энд собрала 17,6 миллиона долларов, в Корее – 69,1 миллиона, в Великобритании – 67,2 миллиона долларов. Даже трудно себе представить, на сколько возрастут мировые сборы этого фильма в ближайший уик-энд, когда он стартует в Китае."/>
+            </LinearLayout>
+        </ScrollView>
+        
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

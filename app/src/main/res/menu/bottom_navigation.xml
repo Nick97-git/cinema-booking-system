@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:enabled="true"
+    android:title="@string/listOfTheaters"
+    android:icon="@drawable/ic_action_list_theaters"
+    android:id="@+id/reChooseTheater"
+    app:showAsAction="ifRoom"
+    />
+
+    <item
+        android:enabled="true"
+        android:title="@string/listOfFilms"
+        android:icon="@drawable/ic_cinema"
+        android:id="@+id/listItems"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:enabled="true"
+        android:title="@string/soon_in_theater"
+        android:icon="@drawable/ic_action_name"
+        android:id="@+id/soon"
+        app:showAsAction="ifRoom"
+        />
+</menu>

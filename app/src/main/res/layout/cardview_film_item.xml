@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="32dp"
+    card_view:cardBackgroundColor="@android:color/white"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="50dp">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/linerCard"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:layout_gravity="center">
+
+
+        <ImageView
+            android:id="@+id/poster"
+            android:layout_width="318dp"
+            android:layout_height="343dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/logan"
+            card_view:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="0.459" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="368dp"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="0.0"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/infoButton"
+                android:layout_width="52dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:background="@drawable/ripple"
+                android:onClick="onClick"
+                android:textSize="12sp"
+                android:text="@string/info"
+                tools:layout_editor_absoluteX="241dp"
+                tools:layout_editor_absoluteY="277dp" />
+
+            <Button
+                android:id="@+id/buyButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/ripple"
+                android:onClick="onClick"
+                android:text="@string/buy_tickets"
+                android:textSize="12sp"
+                tools:layout_editor_absoluteX="13dp"
+                tools:layout_editor_absoluteY="277dp" />
+
+            <ImageButton
+                android:id="@+id/descriptionButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:background="@drawable/ripple"
+                android:src="@drawable/ic_info_black_24dp"
+                android:text="@string/info"
+                android:textSize="12sp"
+                android:tint="@color/colorPrimaryDark"
+                tools:layout_editor_absoluteX="241dp"
+                tools:layout_editor_absoluteY="277dp" />
+
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+
+
+
+</android.support.v7.widget.CardView>
+

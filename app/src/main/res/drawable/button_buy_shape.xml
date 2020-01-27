@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"   android:color="@color/colorPrimary">
+      <item android:state_pressed = "true">
+          <shape android:shape="rectangle">
+              <corners
+                  android:topLeftRadius="0dp"
+                  android:topRightRadius="0dp"
+                  android:bottomLeftRadius="50dp"
+                  android:bottomRightRadius="50dp"
+                  />
+              <solid
+                  android:color="@color/colorPrimaryLight"
+                  />
+              <size
+                  android:width="270dp"
+                  android:height="60dp"
+                  />
+              <stroke
+                  android:width="3dp"
+                  android:color="@color/colorDarkPrimary"
+                  />
+      </shape>
+      </item>
+
+    <item android:state_pressed = "false">
+        <shape android:shape="rectangle">
+            <corners
+                android:topLeftRadius="0dp"
+                android:topRightRadius="0dp"
+                android:bottomLeftRadius="50dp"
+                android:bottomRightRadius="50dp"
+                />
+            <solid
+                android:color="@color/colorPrimaryLight"
+                />
+            <size
+                android:width="270dp"
+                android:height="60dp"
+                />
+            <stroke
+                android:width="3dp"
+                android:color="@color/colorDarkPrimary"
+                />
+        </shape>
+    </item>
+</ripple>
